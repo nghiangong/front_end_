@@ -1,0 +1,25 @@
+.fileList{
+    .fileListItem{
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin: 0px 10px 5px 10px;
+        font-size: small;
+        padding: 3px;
+        background-color: aliceblue;
+        position: relative;
+        width: auto;
+        .name{
+            white-space: nowrap; /* Ngăn không cho văn bản xuống dòng */
+            overflow: hidden; /* Ẩn nội dung bị tràn */
+            text-overflow: ellipsis; /* Chuyển đổi thành dấu chấm chấm */
+
+        }
+        .downloadIcon, .closeIcon{
+            position: absolute;
+            right: 5px;
+            bottom: 3px;
+        }
+    }
+
+}
+

@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    background-color: #343a40;
+    display: flex;
+    padding: 8px 16px;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding: 15px;
+
+    .nav-brand{
+        color: #fff;
+        font-size: 1.25rem;
+        margin: auto 0;
+    }
+
+    .nav-group{
+        display: flex !important;
+        flex-direction: row;
+
+        .nav-item{
+            margin: auto 10px;
+            list-style-type: none;
+
+            .nav-link{
+                color: #949aa2;
+            }
+        }
+    }
+
+    .nav-group1{
+        margin-left: 15px;
+    }
+    .nav-group2{
+        margin-left: auto;
+    }
+    
+}

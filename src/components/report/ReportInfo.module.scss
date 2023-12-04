@@ -1,0 +1,44 @@
+.reportInfo { 
+    padding: 10px;
+    width: 900px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .title {
+        margin: 5px 0;
+    }
+    .frame {
+        flex: 1;
+        overflow:hidden;
+        display: flex;
+        gap: 10px;
+        .frame1, .frame21, .frame22 {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .frame1, .frame2 {
+            height: auto;
+        }
+        .frame1 {
+            flex: 2;
+        }
+        .frame2 {
+            flex: 1;
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden; 
+            .frame21{
+                flex: 1.5;
+            }
+            .frame22{
+                flex: 2.5;
+                overflow: auto;
+                position: relative;
+            }
+        }
+    }
+
+}

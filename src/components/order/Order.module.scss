@@ -1,0 +1,10 @@
+.order {
+    background-color: aqua;
+    border: 1px solid blueviolet;
+
+    .content {
+        columns: 2;
+        padding :10px;
+        background-color: bisque;
+    }
+}

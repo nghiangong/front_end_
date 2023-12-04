@@ -1,0 +1,45 @@
+.timeTable{
+    margin: 10px;
+    .table{
+        width: 100%;
+        /* border: 1px solid #ccc; */
+        border-collapse: collapse;
+        .thead{
+            .th{
+                border: 1px solid #ccc;
+                border-collapse: collapse;
+                width: 50%;
+                padding: 10px;
+                text-align: left;
+            }
+
+        }
+        .tbody{
+            .date{
+                font-size: 18px;
+                color:;
+                font-weight: 600;
+                padding: 10px 0 5px 0;
+            }
+            .meeting{
+                vertical-align: top;
+            }
+            .freeTime{
+                vertical-align: top;
+                .tFreeTime{
+                    padding: auto;
+                    vertical-align: middle;
+                }
+            }
+
+
+        }
+
+    }
+    .collapse{
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
